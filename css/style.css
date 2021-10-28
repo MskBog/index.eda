@@ -89,7 +89,7 @@ body {
 }
 .slide-content {
 	position: relative;
-	max-width: 500px;
+	max-width: 400px;
 }
 .slider-buttons {
 	position: absolute;
@@ -137,12 +137,21 @@ body {
 	font-size: 14px;
 	line-height: 23px;
 }
+.slide-autumn {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(../img/autumn.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .slide-summer {
 	background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(../img/summer.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+.slide-vitamins {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(../img/vitamins.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .promo {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -367,11 +376,49 @@ body {
 	margin: -15px;
 }
 
+.section-title-benefits {
+margin-top: 100px;
+margin-bottom: 52px;
+}
 .button-center {
 	display: block;
 	margin: auto;
 	margin-top: 60px;
 	width: 315px;
+}
+.benefits {
+	margin-bottom: 200px;
+}
+.benefits-cards {
+	display: flex;
+	justify-content: space-between;
+}
+.benefits-card {
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	border: 1px solid #E9E9E9;
+	box-sizing: border-box;
+	max-width: 270px;	
+	text-align: center;
+
+}
+.benefits-card-titel {
+	max-width: 190px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 23px;
+	margin: auto;
+}
+.benefits-img {
+	padding-top: 30px;
+	padding-bottom: 34px;
+}
+.benefits-text {
+	font-size: 14px;
+	line-height: 22px;
+	color: #49494F;
+	max-width: 220px;
+	margin: 13px 23px 25px 23px;
 }
 
 .footer {
@@ -426,6 +473,16 @@ body {
 	}
 	.delivery-card {
 		width: calc(50% - 30px);
+	}
+	.section-title-benefits {
+		text-align: center;
+	}
+	.benefits-cards {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.benefits-card {
+		margin-bottom: 20px;
 	}
 	.footer-logo {
 		margin-right: 40px;
