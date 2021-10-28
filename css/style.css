@@ -511,4 +511,27 @@ margin-bottom: 52px;
 		flex-wrap: wrap;
 		max-width: 100%;
 	}
+	.footer-logo {
+		max-width: 100px;
+	}
+	.social-links {
+		flex-direction: column;
+	}
+	.tabs {
+		flex-direction: column;
+	}
+	.tabs-link {
+		margin-right: 10px;
+	}
+}
+@media (max-width: 380px) {
+	.tabs-card {
+		margin: 5px;
+	}
+	.button-outline {
+		max-width: 90%;
+	}
+	.footer-logo {
+		margin-right: 10px;
+	}
 }
